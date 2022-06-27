@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Nunito:wght@200&family=Roboto:wght@100;300&family=Staatliches&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 50px;
+    background: #232f3f;
+}
+.left img{
+    height: 100%;
+    width: 200px;
+    background: transparent;
+    align-items: center;
+    object-fit: cover;
+    padding-right: 0;
+    margin-right: 0;
+}
+.right img{
+    height: 50%;
+    width: auto;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 2px;
+    padding: 2px 2px;
+
+}
+.left{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.left-search{
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.textleft{
+    font-size: 12px;
+    object-fit: cover;
+}
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 50%;
+}
+.span{
+    font-size: 15px;
+    font-weight: bolder;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: #ffffff;
+    opacity: 0.6;
+}
+.right
+{
+    display: flex;
+    flex-direction: row;
+    object-fit: contain;
+    margin-right: 10px;
+    justify-items: center;
+    align-items: center;
+    font-size: 12px;
+}
+.text1{
+    height: 100%;
+    width: 20%;
+    margin-left: 10px;
+    object-fit: contain;
+
+}
+.rightLast{
+    margin-left: 10px;
+}
+
+.text2{
+    height: 100%;
+    width: 20%;
+    margin-left: 10px;
+}
+.rightLast i{
+    margin-top: 10px;
+    color: #ffffff;
+}
+p{
+    color: #ffffff;
+}
+h1{
+    color: #ffffff;
+}
+h3{
+    color: #ffffff;
+}
+.dropdown{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7px;
+}
+.dropdown form select{
+    padding: 5px 2px;
+    height: 30px;
+}
+.textinput input{
+    margin-top: 7px;
+    height: 30px;
+}
+.button button{
+    color: orange;
+    width: 50px;
+    margin-top: 7px;
+    margin-left: 0;
+    height: 30px;
+}
+.last h3{
+    margin-top: 10px;
+
+}
+.last{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/* End of header 1 */
+
+
+/* Header 2 */
+.header2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #232f3f;
+    align-items: center;
+    justify-items: center;
+    border: 2px solid blanchedalmond;
+    font-size: 14px;
+}
+.header2-details{
+    display: flex;
+    justify-items: center;
+}
+.header2-details a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.header2-details span{
+    padding-left: 10px;
+    color: #ffffff;
+}
+.header2-details i{
+    color: #ffffff;
+}
+/* End of header 2 */
+
+/* Grid */
+
+.container{
+    display: grid;
+    background-color: #f1f1f1;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: calc(100vh - 100px);
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: auto;
+    box-sizing: border-box;
+    width: 100%;
+    grid-gap: 10px;
+
+}
+.section1{
+    background:url('https://images-eu.ssl-images-amazon.com/images/G/31/img22/1999/heros/cepc/eng/1999_GW_tallhero_3000x1200._CB633803402_.jpg');
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    cursor: pointer;
+
+}
+.section2{
+    display: flex;
+    background-position: center;
+    background: url('https://m.media-amazon.com/images/G/31/img19/AMS/Houseads/Laptops-Sept2019._CB436595915_.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid black;
+    padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    cursor: pointer;
+
+}
+.section2 p{
+    display: flex; 
+}
+.section3{
+    background: #232f3f;
+    border: 2px solid black;
+    padding: 20px;
+    background: url('https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonPay/Boson/Sid/CCBP/DesktopGateway_CategoryCard_379x304_CCBP._SY304_CB413372299_.jpg');
+    background-size: contain;
+    cursor: pointer;
+
+}
+.section4{
+    background: #232f3f;
+    border: 2px solid black;
+    padding: 20px;
+    background: url('https://images-eu.ssl-images-amazon.com/images/G/31/Symbol/2021/wrs/mencombo_low._SY304_CB666768535_.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.section5{
+    background: #232f3f;
+    border: 2px solid black;
+    padding: 20px;
+    cursor: pointer;
+    background: url('https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2021/BAU_GW_Graphics/PCCC/cc_379x304-01._SY304_CB625511053_.jpg');
+    background-size: contain;
+    background-repeat: none;
+
+    
+}
+.section6{
+    background: #232f3f;
+    border: 2px solid black;
+    padding: 20px;
+    cursor: pointer;
+    background: url('https://images-eu.ssl-images-amazon.com/images/G/31/img22/Electronics/Clearance/Clearance_store_Desktop_CC_1x._SY304_CB628315133_.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section7{
+    background: #232f3f;
+    border: 2px solid black;
+    padding: 20px;
+    background: url('https://m.media-amazon.com/images/G/31/AMS/IN/970X250-_desktop_banner.jpg');
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-size: cover;
+    cursor: pointer;
+
+}
